@@ -11,6 +11,7 @@ local function setup_keymaps()
 	-- lazy
 	vim.keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
 	vim.keymap.set("n", "<leader>m", "<cmd>Mason<cr>", { desc = "Mason" })
+	vim.keymap.set("n", "<leader>g", "<cmd>LazyGit<cr>", { desc = "LazyGit" })
 end
 
 -- Вызов функции настройки
