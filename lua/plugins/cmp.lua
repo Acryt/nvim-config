@@ -9,7 +9,6 @@ return {
 		"hrsh7th/cmp-cmdline",
 		"hrsh7th/cmp-vsnip",
 		"hrsh7th/vim-vsnip",
-		"mason-org/mason-lspconfig.nvim",
 	},
 	config = function()
 		-- Set up nvim-cmp.
