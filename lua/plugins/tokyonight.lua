@@ -7,7 +7,7 @@ return {
 	},
 	config = function()
 		require("tokyonight").load({
-			transparent = true,
+			--	transparent = true,
 			style = "night", -- "storm", "night", "day"
 		})
 	end,
